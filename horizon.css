@@ -1,3 +1,7 @@
+.scrollableContainer-15eg7h, .wrapper-2aW0bm, .quickswitcher-3JagVE,
+.input-2VB9rf, .markup-2BOw-j code, .theme-dark .uploadModal-2ifh8j {
+  border: 1px solid var(--highlight);
+
 /* custom horizon icon */
 div[data-list-item-id="guildsnav___home"] {
 	background: var(--home-image) top center/110% no-repeat;
