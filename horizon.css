@@ -1,3 +1,113 @@
+/**
+ * @name Horizon BD
+ * @description Horizon Networks BD Theme.
+ * @author supa
+ * @version 1.0
+*/
+
+@import url("https://supaxyz.github.io/horizon.css");
+
+/* base color variables */
+.theme-dark {
+	/* main accent color */
+	--accent-color: #ebaa3aad;
+	/* color of accent color buttons on hover */
+	--accent-color-2: #ebaa3aad;
+	/* color of accent color buttons on click */
+	--accent-color-3: #ebaa3aad;
+	/* link color */
+	--link-color: #ebaa3aad;
+	/* user mention background */
+	--mention-background: #ebaa3aad;
+	/* background of messages that mention you */
+	--mentioned-background: #202430;
+	/* background of messages that mention you on hover */
+	--mentioned-hover-background: #2b2e3f;
+	/* main text color (messages, titles, unread text/indicators) */
+	--primary-text: #a9b0be;
+	/* secondary text color (channels, descriptions, buttons) */
+	--secondary-text: hsl(220, 15%, 40%);
+	/* muted text color (input box placeholders, muted channels, message times) */
+	--muted-text: hsl(220, 15%, 20%);
+	/* main chat/channel list/member list background */
+	--primary-background: #1d202b;
+	/* background of pretty much everything else */
+	--secondary-background: #14161d;
+	/* scrollbar thumb color */
+	--scrollbar-color: #EBAA3A;
+	/* color of things on hover */
+	--hover-modifier: hsla(220, 15%, 20%, 0.1);
+	/* color of things when clicked */
+	--active-modifier: hsla(220, 15%, 20%, 0.2);
+	/* color of things when selected */
+	--selected-modifier: hsla(220, 15%, 20%, 0.3);
+}
+	
+/* change colors */
+.theme-dark {
+	--brand-experiment: var(--accent-color);
+
+	--header-primary: var(--primary-text);
+	--header-secondary: var(--secondary-text);
+	--text-normal: var(--primary-text);
+	--text-muted: var(--muted-text);
+	--text-link: var(--link-color);
+	--text-link-low-saturation: var(--link-color);
+	--interactive-normal: var(--secondary-text);
+	--interactive-hover: var(--primary-text);
+	--interactive-active: var(--primary-text);
+	--interactive-muted: var(--muted-text);
+	--background-primary: var(--primary-background);
+	--background-secondary: var(--secondary-background);
+	--background-secondary-alt: var(--secondary-background);
+	--background-tertiary: var(--secondary-background);
+	--background-accent: var(--muted-text);
+	--background-floating: var(--primary-background);
+	--background-mobile-primary: var(--primary-background);
+	--background-mobile-secondary: var(--secondary-background);
+	--background-modifier-hover: var(--hover-modifier);
+	--background-modifier-active: var(--active-modifier);
+	--background-modifier-selected: var(--selected-modifier);
+	--background-modifier-accent: var(--selected-modifier);
+	--scrollbar-thin-thumb: var(--scrollbar-color);
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: var(--scrollbar-color);
+	--scrollbar-auto-track: transparent;
+	--scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-color);
+	--scrollbar-auto-scrollbar-color-track: transparent;
+	--elevation-stroke: 0 0 4px 1px hsla(0, 0%, 0%, 0.15);
+	--elevation-low: none;
+	--elevation-medium: 0 4px 8px hsla(0, 0%, 0%, 0.2);
+	--elevation-high: 0 4px 8px hsla(0, 0%, 0%, 0.3);
+	--guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	--background-mentioned: var(--mentioned-background);
+	--background-mentioned-hover: var(--mentioned-hover-background);
+	--background-message-hover: var(--hover-modifier);
+	--channels-default: var(--secondary-text);
+	--channeltextarea-background: var(--secondary-background);
+	--activity-card-background: var(--secondary-background);
+	--textbox-markdown-syntax: var(--secondary-text);
+	--info-warning-foreground: var(--accent-color);
+
+	--deprecated-card-bg: var(--secondary-background);
+	--deprecated-card-editable-bg: var(--secondary-background);
+	--deprecated-store-bg: var(--background-primary);
+	--deprecated-quickswitcher-input-background: var(--secondary-background);
+	--deprecated-quickswitcher-input-placeholder: var(--text-muted);
+	--deprecated-text-input-bg: var(--secondary-background);
+	--deprecated-text-input-border: transparent;
+	--deprecated-text-input-border-hover: transparent;
+	--deprecated-text-input-border-disabled: #202225;
+	--deprecated-text-input-prefix: blue;
+
+	--brand-experiment-30a: var(--mention-background);
+	--brand-experiment-600: var(--accent-color-3);
+	--brand-experiment-560: var(--accent-color-2);
+	--brand-experiment-360: var(--accent-color);
+
+	--SC-spotify-green: var(--accent-color);
+}
+
 /* custom horizon icon */
 div[data-list-item-id="guildsnav___home"] {
 	background: var(--home-image) top center/110% no-repeat;
