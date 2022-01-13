@@ -597,7 +597,7 @@ div[class^="unreadMentionsIndicatorBottom-"] {
 
 /* some cool shit i wanna look into making even more cool - profile borner color*/
 
-.userPopout-2j1gM4 .banner-1YaD3N  {
+/* .userPopout-2j1gM4 .banner-1YaD3N  {
     position: absolute;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
@@ -623,4 +623,4 @@ div[class^="unreadMentionsIndicatorBottom-"] {
 .avatarPositionNormal-2jWoC2 {top: 16px;}
 .avatarPositionNormal-2jWoC2+.headerTop-3GPUSF {padding-top: 119px;}
 .avatarPositionPremium-1zPBq9+.headerTop-3GPUSF {margin-top: 119px;}
-.avatarPositionNormal-2jWoC2+.headerTop-3GPUSF>.profileBadges-2pItdR {top: 75px;}
+.avatarPositionNormal-2jWoC2+.headerTop-3GPUSF>.profileBadges-2pItdR {top: 75px;} */
