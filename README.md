@@ -4,6 +4,8 @@
 
 This is a theme for Horizon.
 
-Anyone may use this theme, but don't claim my shit.
+## License
+
+[MIT License](./LICENSE) © Horizon Theme
 
 ![image](https://user-images.githubusercontent.com/79418311/149333012-0404aa6c-4073-444b-996c-9fa2924565ac.png)
