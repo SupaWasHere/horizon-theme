@@ -1,4 +1,7 @@
 # Horizon BD Theme
+
+![Horizon](https://i.imgur.com/8acyu4a.png)
+
 This is a theme for Horizon.
 
 Anyone may use this theme, but don't claim my shit.
